@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8512529953843741625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3577036484006213302}
+  - component: {fileID: 8287231555638922975}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3577036484006213302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512529953843741625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 383.00577, y: 896.6103, z: -287.4375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8287231555638922975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512529953843741625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da2f3b44bfb90c4e86e93e5e548dcc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  red: {fileID: 21300000, guid: 40b22fe16b946154f8cde6894a3e0f09, type: 3}
+  blue: {fileID: 21300000, guid: 277c66341186eca46ac290b1e65a34a3, type: 3}
+  purple: {fileID: 21300000, guid: ec4b0d5b069740f4a9e1d4d616d40782, type: 3}
+  pink: {fileID: 21300000, guid: 26800e71b0e833a4a8f5a65483713850, type: 3}
+  grey: {fileID: 21300000, guid: 0cddc41a100e75c418b89166b42f80a0, type: 3}
+  yellow: {fileID: 21300000, guid: f5283e885ce35474e8474d5e9a8db9ec, type: 3}
+  green: {fileID: 21300000, guid: d3412b2b3b48c8343abcb9462d2c8124, type: 3}
+  red_gm: {fileID: 1453781285728916825, guid: 8a2ecf8a758ce194c8eb390ec85aed0f, type: 3}
+  blue_gm: {fileID: 1394867140010155211, guid: 5ca95f91de9d7fb44a6b7d6e02be6a74, type: 3}
+  purple_gm: {fileID: 6732536675777944668, guid: fafd6b9c1bc621d498a569fbf811157c,
+    type: 3}
+  pink_gm: {fileID: 5661358276792564163, guid: 0aeb7f3545712eb419309f39236af32d, type: 3}
+  grey_gm: {fileID: 1105018344986392997, guid: 8369458d8c447d247a8054a226e14974, type: 3}
+  yellow_gm: {fileID: 4868204044108755768, guid: 36e659e1ae82d224890e7fcf8131a6d3,
+    type: 3}
+  green_gm: {fileID: 4340197669784869727, guid: 7f89eb519f890a347bcdf45855d9cc68,
+    type: 3}
+  swipes: {fileID: 21300000, guid: efd8080e568f47f4bbd2fb55d111eebe, type: 3}
+  moneyMultiplier: {fileID: 6088342627132289551, guid: 960d0538a60e3a747a5833dd5a0ca86a,
+    type: 3}
+  pfDamagePopup: {fileID: 1280387154989662101, guid: c60c1886981de6b43be8cd92cf3b3ffc,
+    type: 3}

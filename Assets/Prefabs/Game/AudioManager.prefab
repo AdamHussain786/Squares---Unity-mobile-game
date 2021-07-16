@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3549431484188763373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3549431484188763347}
+  - component: {fileID: 1522222209}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3549431484188763347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549431484188763373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.322912, y: -1.3654972, z: -11.681641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1522222209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549431484188763373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fca375aaebf5346a9c4bcd9cd89e0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 1e3379ebb17928142a4cd0c9e659a25c, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 9b16f66af795b1d45a95b972da70e913, type: 3}
+    volume: 0.31
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Applause
+    clip: {fileID: 8300000, guid: bbf9d17bc9a4f454ba7a6976b825fc2d, type: 3}
+    volume: 0.374
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Poor
+    clip: {fileID: 8300000, guid: e5c4412064ebd864eb39ae7fdcba8236, type: 3}
+    volume: 0.374
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Rich
+    clip: {fileID: 8300000, guid: 87d6002d6a24b1a43956e8b9018cbea7, type: 3}
+    volume: 0.374
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 61159257ebc1aa345bb6d8e371885025, type: 3}
+    volume: 0.374
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: c74950f35bfdffe41af0eca410a61465, type: 3}
+    volume: 0.374
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: bc9c5791d91d1534f8ef125a8445e474, type: 3}
+    volume: 0.374
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
